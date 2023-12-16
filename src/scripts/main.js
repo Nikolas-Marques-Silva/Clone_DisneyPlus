@@ -29,3 +29,4 @@ function escondeAbas() {
     tabs[i].classList.remove("shows__list--is-active")
   }
 }
+
