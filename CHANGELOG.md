@@ -23,3 +23,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Seção de planos
 
+## [0.0.4] - 2023-12-16
+
+### Added
+
+- Seção de compatibilade
