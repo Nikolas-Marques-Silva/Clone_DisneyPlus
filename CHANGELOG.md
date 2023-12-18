@@ -28,3 +28,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Seção de compatibilade
+
+## [0.0.4] - 2023-12-18
+
+### Added
+
+- Seção de download
