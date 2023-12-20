@@ -3,6 +3,7 @@
 @use 'shows';
 @use 'plans';
 @use 'available_devices';
+@use 'faq';
 
 @font-face {
   font-family: Avenir;
@@ -111,6 +112,7 @@ body {
     &__right_text {
       position: absolute;
       top: 0;
+      left: 50%;
       height: 100%;
       width: calc(50% - 5.6vw);
       display: flex;
