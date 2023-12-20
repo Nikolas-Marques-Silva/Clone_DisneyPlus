@@ -40,3 +40,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added 
 
 - Seção de dispositivos
+
+## [0.0.6] - 2023-12-20
+
+### Added
+
+- Seção de perguntas e respostas com as perguntas mais comuns
