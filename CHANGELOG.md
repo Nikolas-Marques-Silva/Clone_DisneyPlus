@@ -46,3 +46,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Seção de perguntas e respostas com as perguntas mais comuns
+
+## [0.0.7] - 2023-12-21
+
+### Added
+
+- Rodapé do site
