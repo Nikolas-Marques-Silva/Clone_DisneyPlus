@@ -25,13 +25,21 @@
         padding: 8px;
         display: flex;
         justify-content: space-between;
+
+        @media (max-width: variaveis.$tablet) {
+            padding: 0 12px 0 20px; 
+        }
     }
 
     &__logo {
         max-width: 80px;
         width: 100%; 
         margin: 5px;
-        transition: opacity 0.5s ease;  
+        transition: opacity 0.5s ease;
+
+        @media (max-width: variaveis.$tablet) {
+            max-width: 64px;
+        }
     }
 
     &__links {
@@ -50,4 +58,11 @@
 
 .hidden {
     visibility: hidden;
+
+    @media (max-width: variaveis.$tablet) {
+        font-size: 12px;
+        padding: 8px 12px;
+        height: 40px;
+        letter-spacing: 0;
+    }
 }
