@@ -2,9 +2,10 @@
 
 const header = document.querySelector('header');
 const hero = document.querySelector('.hero');
-const heroHeight = hero.offsetHeight;
 
 window.addEventListener('scroll', () => {
+    const heroHeight = hero.offsetHeight;
+
     if (window.scrollY > heroHeight) {
         header.classList.add('header--active');
     } else {
