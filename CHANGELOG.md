@@ -17,8 +17,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Info bar do HERO
 
-## [0.0.3] - 2023-12-27
+## [0.0.3] - 2023-12-28
 
 ### Added
 
 - Seção Front-end
+
+## [0.0.4] - 2023-12-28
+
+### Added
+
+- Seção Back-end
+- Seção UX/UI
+- Seção Data Science
+- Animação Fade aos containers
