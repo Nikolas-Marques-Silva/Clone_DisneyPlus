@@ -1,18 +1,24 @@
 {
+  "homepage": "https://nikolas-m-silva.github.io/Clone_DisneyPlus/",
   "name": "clone_disneyplus",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
-    "build": "parcel src/index.html"
+    "start": "parcel ./src/index.html",
+    "prebuild-dev": "shx rm -rf dist/*",
+    "build-dev": "parcel build ./src/index.html --no-optimize --public-url ./",
+    "prebuild": "shx rm -rf dist/*",
+    "build": "parcel build ./src/index.html --public-url ./",
+    "push-gh-pages": "push-dir --dir=dist --branch=gh-pages --cleanup --verbose"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.10.3",
+    "gh-pages": "^6.1.1",
     "parcel": "^2.10.3",
-    "sharp": "^0.31.3"
+    "sharp": "^0.31.3",
+    "shx": "^0.3.2"
   }
 }
