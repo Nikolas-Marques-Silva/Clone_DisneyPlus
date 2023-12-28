@@ -10,3 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - HERO adicionado
+
+## [0.0.2] - 2023-12-27
+
+### Added
+
+- Info bar do HERO adicionada
