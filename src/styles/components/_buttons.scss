@@ -1,3 +1,5 @@
+@use '../variables';
+
 .button {
     padding: 12px;
     font-size: 18px;
@@ -7,16 +9,16 @@
     white-space: nowrap;
 
     &--primary {
-        color: #fff;
-        background-color: #4f2ac3;
+        color: variables.$white;
+        background-color: variables.$bgc-button;
     }
 
-    @media (max-width: 640px) {
+    @media (max-width: variables.$mobile) {
         display: block;
         width: 100%;
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: variables.$desktop) {
         display: flex;
         align-items: center;
     }

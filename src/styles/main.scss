@@ -2,13 +2,14 @@
 @use 'components/infos-bar';
 @use 'components/buttons';
 @use 'event';
+@use 'variables';
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
-    color: #fff;
+    color: variables.$white;
     list-style: none;
 }
 
@@ -17,11 +18,11 @@
     width: 100%;
     margin: 0 auto;
 
-    @media (max-width: 640px) {
+    @media (max-width: variables.$mobile) {
         max-width: 80%;
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: variables.$desktop) {
         max-width: 90%;
     }
 }

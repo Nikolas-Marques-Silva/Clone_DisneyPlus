@@ -1,6 +1,8 @@
+@use '../variables';
+
 .infos-bar {
     padding: 16px 24px;
-    background-color: #fff;
+    background-color: variables.$white;
     border-radius: 4px;
     display: flex;
     justify-content: space-between;
@@ -12,17 +14,17 @@
 
         &__item {
             font-size: 14px;
-            color: #000;
+            color: variables.$black;
 
             b {
-                color: #000;
+                color: variables.$black;
                 font-size: 18px;
                 display: block;
             }
         }
     }
 
-    @media (max-width: 640px) {
+    @media (max-width: variables.$mobile) {
         display: block;
 
         &__list {
@@ -34,7 +36,7 @@
         }
     }
 
-    @media (max-width: 1024px) {
+    @media (max-width: variables.$desktop) {
         
         &__list {
             gap: 16px;
