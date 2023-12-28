@@ -1,0 +1,44 @@
+@use 'variables';
+
+.info {
+    padding: 64px 0;
+    background-image: linear-gradient(#eee, #ccc);
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 1024px; 
+    }
+
+    &__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+        
+        &__item {
+            padding: 16px;
+            width: 50%;
+            background-image: linear-gradient(variables.$blue1, variables.$pink);
+            border-radius: 8px;
+            margin-bottom: 16px;
+
+            b {
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 28px;
+                margin-bottom: 16px;
+            }
+
+            p {
+                font-size: 18px;
+                line-height: 20px;
+                font-weight: 400;
+                margin: 0;
+                text-align: center;
+            }
+        }
+    }
+}

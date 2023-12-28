@@ -1,6 +1,6 @@
 AOS.init()
 
-const eventDate = new Date('Dec 31, 2023 00:00:00').getTime();
+const eventDate = new Date('Jan 09, 2024 00:00:00').getTime();
 const intervalo = setInterval(() => {
    const now = new Date().getTime();
    const diff = eventDate - now;
@@ -14,6 +14,6 @@ const intervalo = setInterval(() => {
 
     if (diff < 0) {
         clearInterval(intervalo);
-        document.getElementById('contador').innerHTML = 'Evento encerrado';
+        document.getElementById('contador').innerHTML = 'Meu Aniversário de 16 anos chegou!!!';
     }
 }, 1000)
