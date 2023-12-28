@@ -31,3 +31,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Seção UX/UI
 - Seção Data Science
 - Animação Fade aos containers
+
+## [0.0.5] - 2023-12-28
+
+### Added
+
+- Timer do eveto
