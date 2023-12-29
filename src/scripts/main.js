@@ -1,5 +1,3 @@
-AOS.init()
-
 const eventDate = new Date('Jan 09, 2024 00:00:00').getTime();
 const intervalo = setInterval(() => {
    const now = new Date().getTime();
