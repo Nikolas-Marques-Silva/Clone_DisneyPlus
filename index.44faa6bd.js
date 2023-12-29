@@ -1,0 +1,2 @@
+const e=new Date("2024-01-09"),o=setInterval(()=>{let n=e-new Date,r=Math.floor(n/1e3/60/60/24),t=Math.floor(n/1e3/60/60)%24,l=Math.floor(n/1e3/60)%60,c=Math.floor(n/1e3)%60;document.querySelector("#contador").innerHTML=`${r}d ${t}h ${l}m ${c}s`,console.log(r,t,l,c),console.log(n),console.log(document.querySelector("#contador")),n<0&&(clearInterval(o),document.querySelector("#contador").innerHTML="Meu aniversário de 16 anos chegou!!!")});
+//# sourceMappingURL=index.44faa6bd.js.map
